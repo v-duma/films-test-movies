@@ -1,0 +1,54 @@
+.formAddMovie {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-family: "Jura", sans-serif;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  justify-content: center;
+}
+
+label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 1024px) {
+  label {
+    flex-direction: column;
+  }
+  button {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+input {
+  border-radius: 10px;
+  border: 1px black solid;
+  padding: 10px;
+  font-family: "Jura", sans-serif;
+}
+
+label > input {
+  width: 84%;
+}
+
+button {
+  border-radius: 10px;
+  border: 2px #ed6b5b solid;
+  background-color: white;
+  padding: 10px;
+  font-family: "Jura", sans-serif;
+}
+
+button:hover,
+button:focus {
+  background-color: #ed6b5b;
+}

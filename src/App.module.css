@@ -1,0 +1,24 @@
+.movieCard {
+  width: 200px;
+  border: 1px black solid;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.movieList {
+  display: flex;
+  gap: 20px;
+  width: 70%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.app {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Jura", sans-serif;
+}

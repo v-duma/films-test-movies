@@ -1,0 +1,35 @@
+.header {
+  position: fixed;
+  display: flex;
+  background-color: white;
+  border-bottom: 4px #ed6b5b solid;
+  top: 0;
+  left: 0;
+  width: 100%;
+  font-family: "Jura", sans-serif;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+  width: 400px;
+}
+
+@media (max-width: 425px) {
+  ul {
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 70%;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}

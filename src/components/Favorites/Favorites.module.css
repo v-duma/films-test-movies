@@ -1,0 +1,29 @@
+.favorites {
+  margin-top: 100px;
+  font-family: "Jura", sans-serif;
+  width: 70%;
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.movieCard {
+  width: 200px;
+  border: 1px black solid;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.movieList {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  flex-wrap: wrap;
+
+  justify-content: center;
+}
